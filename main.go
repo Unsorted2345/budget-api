@@ -23,5 +23,5 @@ func main() {
 	r.DELETE("/transactions/:id", deleteTransaction)
 	r.PUT("/budgets/:id", updateBudget)
 	r.PUT("/transactions/:id", updateTransaction)
-	r.Run(":1234")
+	r.Run(":6090")
 }
